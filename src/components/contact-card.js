@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card, Button, Icon } from 'semantic-ui-react';
-import PropTypes from 'prop-types';
+
 
 export default function ContactCard({contact, deleteContact}){
   return (
@@ -24,7 +24,3 @@ export default function ContactCard({contact, deleteContact}){
     </Card>
   );
 };
-
-ContactCard.propTypes = {
-  contact: PropTypes.object.isRequired
-}
