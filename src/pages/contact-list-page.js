@@ -13,14 +13,19 @@ class ContactListPage extends Component {
     return (
       <div>
         <h1>List of contacts</h1>
-        <ContactList contacts={this.props.contacts} deleteContact={this.props.deleteContact} />
+        <ContactList 
+          contacts={this.props.contacts} 
+          deleteContact={this.props.deleteContact} />
       </div>
     );
   };
 };
 
 
-const mapStateToProps = state => ({contacts: state.contact.contacts});
+const mapStateToProps = state => 
+  ({
+    contacts: state.contact.contacts
+  });
 
 const mapDispatchToProps = (dispatch) => ({
   fetchContacts: dispatch.contact.fetchContacts,

@@ -7,7 +7,9 @@ export default function ContactList({contacts, deleteContact}){
   const cards = () => {
     return contacts.map(contact => {
       return (
-        <ContactCard key={contact._id} contact={contact} deleteContact={deleteContact}/>
+        <ContactCard key={contact._id} 
+          contact={contact} 
+          deleteContact={deleteContact}/>
       );
     });
   };
