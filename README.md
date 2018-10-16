@@ -1,3 +1,6 @@
+----------------------
+The tutorial for this application can be founded [here](https://medium.com/@BradHick/crud-react-formik-redux-rematch-4c6751a002ef).
+----------------------
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
